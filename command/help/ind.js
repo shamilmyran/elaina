@@ -8,22 +8,22 @@ exports.limitend = (pushname) => {
 	return`Maaf ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
 }
 exports.noregis = (pushname) =>{
-	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
+	return` 🙅‍♀️ Hello ${pushname} click .daftar 🌝`
 	}
 exports.regis = () =>{
 	return` Lu udah daftar 😒`
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
-	return` *PENDAFTARAN BERHASIL*
+	return` *REGISTRATION SUCCESS*
 
-• Nama : ${pushname}
-• Nomor : ${sender.split("@")[0]}
-• Waktu : ${time}
+• Name : ${pushname}
+• Number : ${sender.split("@")[0]}
+• time : ${time}
 • Serial : ${serialUser}
 • Total User : ${totalUser.length}
 
-Thanks kak udah daftar, sekarang ketik .menu untuk melihat 
-fitur bot.
+Thanks 😊 
+.
 `
 	}
 exports.owner = (botname) =>{
@@ -49,17 +49,18 @@ exports.ok = () =>{
 	return`Sukses!`
 	}
 exports.welcome = () =>{
-	return`Jangan Lupa Intro Ya~
-⌯ָ   ֙Nama :
-⌯ָ   ֙Umur :
-⌯ָ   ֙Kelamin :
-⌯ָ   ֙Askot :
-╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
+	return`welcome😊~
+⌯ָ   ֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙Day : ${thisDay}
+
+⌯ָ   ֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙Time :${timuu}
+⌯ָ   ֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙
+⌯ָ   ֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙֙
+╰─ ᝬ _ʜᴏᴩᴇ yᴏᴜ ʟɪᴋᴇ ɪᴛ ᴀɴᴅ ᴅᴏɴ'ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ʀᴇᴀᴅ ᴛʜᴇ ɢʀᴏᴜᴩ ᴅᴇꜱᴄʀɪᴩᴛɪᴏɴ_  >_<`
       }
 exports.leave = () =>{
 	return`
 │
-╰─ ᝬ _Sayonara, Semoga tenang di alam sana kak_ >_<`
+╰─ ᝬ _Good bye brother_ >_<`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
@@ -264,10 +265,10 @@ exports.menu = (prefix, salam, pushname) =>{
 ❏ ${prefix}sound113
 ❏ ${prefix}sound114
 ❏ ${prefix}sound115
-❏ ${prefix}sound116
-❏ ${prefix}sound117
-❏ ${prefix}sound118
-❏ ${prefix}sound119
+
+
+
+
 
 *Information*
 ❏ ${prefix}jadwaltv
