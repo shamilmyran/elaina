@@ -34,7 +34,7 @@ const starts = async (elaina = new WAConnection()) => {
     	color: ['#ff9c00'],
     	align: 'center',
 		})
-	CFonts.say(`Bot WhatsApp Created By RflBotz Ofc`, {
+	CFonts.say(`Bot WhatsApp Created By Munavir`, {
 		font: 'console',
 		align: 'center',
 		gradient: ['red', 'magenta']
